@@ -1,0 +1,19 @@
+{
+    "name": "Object-Detection",
+    "version": "1.0.0",
+    "description": "node app ",
+    "main": "server.js",
+    "scripts": {
+    "start": "node server.js"
+  },
+    "repository": {
+    "type": "git",
+    "url": ""
+  },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+    "url": "https://od-react-tf.herokuapp.com/"
+  },
+    "homepage": "/"
+  }

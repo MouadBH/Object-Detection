@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
     res.sendFile("index.html", { root: __dirname + "/public" });
 });
 
-
-app.listen(8080, () => console.log('App listening on port 8080!'));
+const port = process.env.PORT || 3000
+app.listen(port, () => console.log('App listening on port 3000!'));
